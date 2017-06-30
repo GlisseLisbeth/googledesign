@@ -1,0 +1,101 @@
+@import 'color.scss';
+@import 'fonts.scss';
+@import 'grid.scss';
+@import 'flex.scss';
+
+$paddin_value: 2px;
+$font-size: 1em;
+
+%hr{
+ border-top: 3px solid $blue-color;
+}
+hr{
+    @extend %hr;
+}
+%img{
+ width: 100%;
+}
+body{
+  background-color: $blank_color;
+  color: $gray-dark;
+  font-size: $font-size;
+}
+//titles and letter content
+h1, h3, h4 {
+  @include fonts($font-primary);
+  color: black;
+  font-weight: bold;
+}
+
+p{
+  @include fonts($font-secondary);
+}
+.title-right{
+  float: right;
+  color: $blue-color;
+  font-size: 11px;
+}
+.fecha{
+  color: $gray-arrow;
+}
+.margin-right{
+    margin-right: 167px;
+}
+//header
+header{
+    margin-top: $base-size*2;
+    margin-bottom: $base-size;
+    & .img-logo{
+      @include widths(40%);
+    }
+    & .search{
+      @include widths(80%);
+      position: relative;
+      right: 0;
+      margin-top:  $base-size*2;
+      margin-left: $base-size;
+    }
+    & .img-glass{
+       top: 6%;
+       right: 15%;
+        position: absolute;
+    }
+}
+//menu
+nav{
+   text-align: center;
+  & ul{
+    list-style: none;
+    & li{
+      display: inline-block;
+      margin-left: 6%;
+      & a{
+        color: $gray-text;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+  }
+ }
+//section
+.newsfeed-logo{
+  background: $gray-background;
+  & div{     
+    padding: 20px;
+    & a{
+          color: $blue-color;
+          text-decoration: none;
+          font-weight: 700;      
+       }
+  }
+}
+//footer
+ footer{
+      background-color: #DBDBDB;
+      text-align: center;
+      span{
+         color: #333;
+         margin: 10px 20px;
+         padding: 10px $paddin_value;
+     }
+ }

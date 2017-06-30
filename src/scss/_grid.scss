@@ -1,0 +1,57 @@
+$columns : 12;
+$column-width : 100%/$columns;
+$breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
+
+%base-row{
+  display: table;
+  line-height: 0;
+  content: "";
+}
+@mixin widths($width){
+  width: $width;
+}
+@mixin max-widths($width){
+  max-width: $width;
+}
+@mixin margins($margin1, $margin2){
+  margin: $margin1 $margin2;
+}
+.container{
+  @include widths(80%);
+  @include margins(0, auto); 
+}
+.container-fluid{
+  @include widths(100%);
+  @include margins(0, auto);
+}
+
+
+.row{
+  &:after, &:before{
+    @extend %base-row;  
+  }
+  &:after{
+    clear: both;
+  }
+}
+
+
+//By Elizabeth Portilla Flores
+
+@function column-width($column){
+  @return $column-width*$column;
+}
+@mixin column($media, $min-width){
+  @media (min-width:$min-width){
+  @for $i from 1 through $columns {
+  .col-#{$media}-#{$i}, .col-#{$media}-offset-#{$i} {
+        width: column-width($i);
+        float: left;
+        min-height: 1px;
+      }
+    }
+  }
+}
+@each $name, $width in $breakpoints {
+  @include column($name, $width);
+}
