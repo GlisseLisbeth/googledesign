@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-$font-primary:'Raleway', sans-serif;
-$font-secondary:'Roboto', sans-serif;
-$base-size: 5%;
+$font-primary:'Roboto', sans-serif;
+$font-secondary:'Product Sans', sans-serif;
+$font-tertiary: 'Roboto Mono', monospace;
 
 @mixin fonts($font){
   font-family: $font;

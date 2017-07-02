@@ -1,6 +1,7 @@
 $columns : 12;
 $column-width : 100%/$columns;
 $breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
+$height: 1px;
 
 %base-row{
   display: table;
@@ -18,7 +19,7 @@ $breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
 }
 .container{
   @include widths(80%);
-  @include margins(0, auto); 
+  @include margins(0, auto);
 }
 .container-fluid{
   @include widths(100%);
@@ -28,7 +29,7 @@ $breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
 
 .row{
   &:after, &:before{
-    @extend %base-row;  
+    @extend %base-row;
   }
   &:after{
     clear: both;
@@ -46,8 +47,9 @@ $breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
   @for $i from 1 through $columns {
   .col-#{$media}-#{$i}, .col-#{$media}-offset-#{$i} {
         width: column-width($i);
+        position: relative;
         float: left;
-        min-height: 1px;
+        min-height: $height;
       }
     }
   }

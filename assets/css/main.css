@@ -19,241 +19,289 @@
 @media (min-width: 0) {
   .col-xs-1, .col-xs-offset-1 {
     width: 8.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-2, .col-xs-offset-2 {
     width: 16.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-3, .col-xs-offset-3 {
     width: 25%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-4, .col-xs-offset-4 {
     width: 33.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-5, .col-xs-offset-5 {
     width: 41.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-6, .col-xs-offset-6 {
     width: 50%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-7, .col-xs-offset-7 {
     width: 58.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-8, .col-xs-offset-8 {
     width: 66.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-9, .col-xs-offset-9 {
     width: 75%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-10, .col-xs-offset-10 {
     width: 83.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-11, .col-xs-offset-11 {
     width: 91.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-xs-12, .col-xs-offset-12 {
     width: 100%;
+    position: relative;
     float: left;
     min-height: 1px; } }
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-offset-1 {
     width: 8.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-2, .col-sm-offset-2 {
     width: 16.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-3, .col-sm-offset-3 {
     width: 25%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-4, .col-sm-offset-4 {
     width: 33.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-5, .col-sm-offset-5 {
     width: 41.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-6, .col-sm-offset-6 {
     width: 50%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-7, .col-sm-offset-7 {
     width: 58.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-8, .col-sm-offset-8 {
     width: 66.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-9, .col-sm-offset-9 {
     width: 75%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-10, .col-sm-offset-10 {
     width: 83.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-11, .col-sm-offset-11 {
     width: 91.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-sm-12, .col-sm-offset-12 {
     width: 100%;
+    position: relative;
     float: left;
     min-height: 1px; } }
 @media (min-width: 992px) {
   .col-md-1, .col-md-offset-1 {
     width: 8.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-2, .col-md-offset-2 {
     width: 16.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-3, .col-md-offset-3 {
     width: 25%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-4, .col-md-offset-4 {
     width: 33.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-5, .col-md-offset-5 {
     width: 41.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-6, .col-md-offset-6 {
     width: 50%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-7, .col-md-offset-7 {
     width: 58.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-8, .col-md-offset-8 {
     width: 66.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-9, .col-md-offset-9 {
     width: 75%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-10, .col-md-offset-10 {
     width: 83.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-11, .col-md-offset-11 {
     width: 91.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-md-12, .col-md-offset-12 {
     width: 100%;
+    position: relative;
     float: left;
     min-height: 1px; } }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-offset-1 {
     width: 8.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-2, .col-lg-offset-2 {
     width: 16.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-3, .col-lg-offset-3 {
     width: 25%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-4, .col-lg-offset-4 {
     width: 33.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-5, .col-lg-offset-5 {
     width: 41.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-6, .col-lg-offset-6 {
     width: 50%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-7, .col-lg-offset-7 {
     width: 58.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-8, .col-lg-offset-8 {
     width: 66.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-9, .col-lg-offset-9 {
     width: 75%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-10, .col-lg-offset-10 {
     width: 83.33333%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-11, .col-lg-offset-11 {
     width: 91.66667%;
+    position: relative;
     float: left;
     min-height: 1px; }
 
   .col-lg-12, .col-lg-offset-12 {
     width: 100%;
+    position: relative;
     float: left;
     min-height: 1px; } }
 /**
@@ -266,6 +314,14 @@
 /*
     Display
  */
+.header__container, .nav__ul, .footer__flexsfooter {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
 /*
     Flex direction
  */
@@ -293,85 +349,149 @@
 /*
     Justify content
  */
+.header__container, .nav__ul {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.footer__flexsfooter {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
 /*
     Align items
  */
+.header__container, .nav__ul {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
 /*
     Align self
  */
 /*
     Align content
  */
-hr {
-  border-top: 3px solid #4285f4; }
-
 body {
   background-color: #ffffff;
+  font-family: "Product Sans", sans-serif;
   color: #424242;
   font-size: 1em; }
 
 h1, h3, h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Product Sans", sans-serif;
   color: black;
   font-weight: bold; }
 
 p {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1.5em;
+  overflow: hidden; }
+
+hr {
+  border-top: 3px solid #4285f4; }
+
+hr.subfooter {
+  box-shadow: 0 -0.1875rem 0.125rem rgba(0, 0, 0, 0.54);
+  left: 0;
+  position: absolute;
+  border-top: none;
+  width: 100%; }
+
+.section__img {
+  width: 100%; }
 
 .title-right {
   float: right;
   color: #4285f4;
   font-size: 11px; }
 
-.fecha {
-  color: #5f6368; }
+.date {
+  color: #5f6368;
+  font-family: "Roboto Mono", monospace; }
 
-.margin-right {
-  margin-right: 167px; }
+.shadow:hover {
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }
 
-header {
-  margin-top: 10%;
-  margin-bottom: 5%; }
-  header .img-logo {
-    width: 40%; }
-  header .search {
-    width: 80%;
-    position: relative;
-    right: 0;
-    margin-top: 10%;
-    margin-left: 5%; }
-  header .img-glass {
-    top: 6%;
-    right: 15%;
-    position: absolute; }
+.footer__flexsfooter {
+  margin-top: 2em; }
 
-nav {
-  text-align: center; }
-  nav ul {
-    list-style: none; }
-    nav ul li {
-      display: inline-block;
-      margin-left: 6%; }
-      nav ul li a {
-        color: #414549;
-        text-decoration: none;
-        font-weight: 700; }
+.section__marginright {
+  margin-right: 1em; }
+
+.section__marginleft {
+  margin-left: 1em; }
 
 .newsfeed-logo {
-  background: #f1f3f4; }
-  .newsfeed-logo div {
-    padding: 20px; }
-    .newsfeed-logo div a {
-      color: #4285f4;
-      text-decoration: none;
-      font-weight: 700; }
+  margin-bottom: 1em; }
 
-footer {
+.header {
+  margin: 4em auto; }
+  .header__search {
+    width: 80%; }
+  .header__imgglass {
+    top: 13%;
+    right: 5%;
+    position: absolute; }
+
+.nav__ul {
+  list-style: none;
+  width: 100%; }
+  .nav__ul__li {
+    display: inline-block;
+    margin-right: 6%; }
+    .nav__ul__li__a {
+      color: #414549;
+      font-family: "Roboto", sans-serif;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 100%;
+      cursor: pointer; }
+
+.section__text {
+  font-family: "Roboto Mono", monospace;
+  color: #5f6368; }
+.section__circle {
+  border-radius: 50%; }
+
+.newsfeed-logo {
+  background: #f1f3f4;
+  padding: 20px; }
+  .newsfeed-logo__a {
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: 700; }
+
+.footer {
   background-color: #DBDBDB;
   text-align: center; }
-  footer span {
+  .footer__span {
     color: #333;
     margin: 10px 20px;
-    padding: 10px 2px; }
+    padding: 10px 0.5em; }
+  .footer__ol {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    .footer__ol__li__a {
+      color: #414549;
+      font-family: "Roboto", sans-serif;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 100%;
+      cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

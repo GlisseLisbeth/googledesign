@@ -3,99 +3,177 @@
 @import 'grid.scss';
 @import 'flex.scss';
 
-$paddin_value: 2px;
+$paddin_value: 0.5em;
 $font-size: 1em;
-
-%hr{
- border-top: 3px solid $blue-color;
+$margin: 4em auto;
+body{
+  background-color: $blank_color;
+  @include fonts($font-secondary);
+  color: $gray-dark;
+  font-size: $font-size;
 }
 hr{
     @extend %hr;
 }
-%img{
- width: 100%;
-}
-body{
-  background-color: $blank_color;
-  color: $gray-dark;
-  font-size: $font-size;
+hr.subfooter{
+    @extend %subfooter;
 }
 //titles and letter content
 h1, h3, h4 {
-  @include fonts($font-primary);
+  @include fonts($font-secondary);
   color: black;
   font-weight: bold;
 }
-
 p{
-  @include fonts($font-secondary);
+  @include fonts($font-primary);
+  font-weight: 100;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+%hr{
+ border-top: 3px solid $blue-color;
+}
+%subfooter{
+  box-shadow: 0 -0.1875rem 0.125rem rgba(0, 0, 0, 0.54);
+  left: 0;
+  position: absolute;
+  border-top: none;
+  width: 100%;
+}
+%img{
+ width: 100%;
 }
 .title-right{
   float: right;
   color: $blue-color;
   font-size: 11px;
 }
-.fecha{
+.date{
   color: $gray-arrow;
+  @include fonts($font-tertiary);
 }
-.margin-right{
-    margin-right: 167px;
+%shadow{
+  box-shadow: 0 3px 3px -2px rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 1px 8px 0 rgba(0,0,0,.12);
+}
+%flexs{
+  @include display-flex();
+  @include align-items($align: center);
+  @include justify-content($justify: center);
+}
+%flexs-footer{
+  @include display-flex();
+  @include justify-content($justify: space-between);
+  margin-top: 2em;
+}
+%margin-right{
+  margin-right: 1em;
+}
+%margin-left{
+  margin-left: 1em;
+}
+%margin-bottom{
+  margin-bottom: 1em;
 }
 //header
-header{
-    margin-top: $base-size*2;
-    margin-bottom: $base-size;
-    & .img-logo{
-      @include widths(40%);
+.header{
+  margin: $margin;
+    &__container{
+      @extend %flexs;
     }
-    & .search{
+    &__search{
       @include widths(80%);
-      position: relative;
-      right: 0;
-      margin-top:  $base-size*2;
-      margin-left: $base-size;
     }
-    & .img-glass{
-       top: 6%;
-       right: 15%;
-        position: absolute;
+    &__imgglass{
+      top: 13%;
+      right: 5%;
+      position: absolute;
     }
 }
 //menu
-nav{
-   text-align: center;
-  & ul{
+.nav{
+  &__ul{
     list-style: none;
-    & li{
+    width:100%;
+    @extend %flexs;
+    &__li{
       display: inline-block;
-      margin-left: 6%;
-      & a{
+      margin-right: 6%;
+      &__a{
         color: $gray-text;
+        @include fonts($font-primary);
         text-decoration: none;
-        font-weight: 700;
+        font-weight: 500;
+        font-size: 100%;
+        cursor: pointer;
+      }
+      &__a:hover{
+
       }
     }
   }
  }
-//section
+//section all
+.section{
+    &__img{
+      @extend %img;
+    }
+    &__text{
+      @include fonts($font-tertiary);
+      color: $gray-arrow;
+    }
+    &__marginleft{
+      @extend %margin-left;
+    }
+    &__marginright{
+      @extend %margin-right;
+    }
+    &__circle{
+      border-radius: 50%;
+    }
+}
+.shadow:hover{
+  @extend %shadow;
+}
+//newsfeed
 .newsfeed-logo{
   background: $gray-background;
-  & div{     
-    padding: 20px;
-    & a{
+  padding: 20px;
+  @extend %margin-bottom;
+  &__a{
           color: $blue-color;
           text-decoration: none;
-          font-weight: 700;      
-       }
+          font-weight: 700;
+    }
   }
-}
 //footer
- footer{
+ .footer{
       background-color: #DBDBDB;
       text-align: center;
-      span{
+      &__flexsfooter{
+        @extend %flexs-footer;  
+      }
+      &__span{
          color: #333;
          margin: 10px 20px;
          padding: 10px $paddin_value;
      }
+     &__ol{
+      list-style: none;
+      width:100%;
+      margin:0;
+      padding:0;
+      &__li{
+        &__a{
+          color: $gray-text;
+          @include fonts($font-primary);
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 100%;
+          cursor: pointer;
+        }
+        &__a:hover{
+
+        }
+      }
+    }
  }
